@@ -1,0 +1,83 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    color: #C2185B;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.main-layout {
+    display: flex;           /* Sử dụng Flexbox chia 2 cột */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;               /* Khoảng cách giữa cột ảnh và cột chữ */
+    margin-bottom: 25px;
+}
+
+.left-column {
+    flex: 0 0 200px;
+    text-align: center;
+}
+
+.right-column {
+    flex: 1;                 /* Cột nội dung chiếm phần còn lại */
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.section-title {
+    background-color: #FFC0CB;
+    color: #000000;
+    display: inline-block;     /* Nền ôm vừa chữ */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0 0 15px 0;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.list-square {
+    list-style-type: square;
+}
+
+.list-circle {
+    list-style-type: circle;
+}
+
+.copyright {
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.copyright a {
+    color: #0000EE;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+}
